@@ -1,0 +1,99 @@
+body {
+    font-family: "Press Start 2P", cursive;
+    width: 100%;
+    background-color: rgb(231, 240, 213);
+  }
+
+h1{
+      font-size: xx-large;
+  }
+
+h2{
+    font-size:large
+    
+}
+
+h3{
+    font-size: small;
+}
+#warn{
+  margin-bottom: 30px;
+  color: red;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.warnings{
+  margin-bottom: 20px;
+}
+
+#intro {
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+ 
+#big-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+  
+#pikachu-box {
+    text-align: center;
+    border: 3px;
+    border-style: solid;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    width: 250px;
+    height: 200px;
+    margin-bottom: 50px;
+    padding: 30px;
+    margin-top: 30px;
+}
+  
+  /* .button-img{
+    text-align: center;
+    border: 3px;
+    border-style: solid;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    width: 250px;
+    height: 200px;
+    margin-bottom: 50px;
+    padding: 30px;
+  } */
+
+#name {
+    margin-top: 1px;
+}
+  
+.sprite {
+    display: flex;
+    justify-content: center;
+}
+  
+#default-sprite {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+  
+#buttons-box {
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    /*   border: 3px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px; */
+}
+  
+.buttons {
+    padding: 5px;
+    font-family: "Press Start 2P", cursive;
+    font-size: 10px;
+}
+  

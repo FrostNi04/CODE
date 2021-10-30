@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link to font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+    <title>Pocket Monster</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <section id="intro">
+        <h1>Pocket Monster</h1>
+        <p>
+            Instructions: click on a button to take care of Pikachu. 
+            
+        </p>
+        <p id="warn">
+            NEVER do the same thing twice...!
+        </p>
+
+    </section>
+
+    <section id="big-box">
+
+        <div id="container">
+            <div>
+
+            </div>
+
+            <h2 class="warnings" id="first-warn">Just follow the instruction !! Or ... ?</h2>
+            <h2 class="warnings" id="second-warn">I Told You!</h2>
+            <h2 class="warnings" id="third-warn">You asked for it...</h2>
+            <div id="pikachu-box">
+
+
+                <p id="name">Pikachu</p>
+                <div class="sprite">
+                    <!-- Add pikachu sprite (default) -->
+                    <img id="default-sprite" style="width:110px" src="Assets/pikachu.gif" alt="Pikachu" />
+                    <!-- Insert reaction sprite/emoji -->
+                    <!-- <img id="reaction-sprite"> </img> -->
+                </div>
+
+                <div id="pika-apple-one" class="button-content">
+                    <img id="button-apple-one" src="Assets/APPLE-ONE.png" />
+                </div>
+
+                <div id="pika-apple-two" class="button-content">
+                    <img id="button-apple-two" src="Assets/APPLE-TWO.png" />
+                </div>
+
+                <div id="pika-berry-one" class="button-content">
+                    <img id="button-berry-one" src="Assets/Berry-One.png" />
+                </div>
+
+                <div id="pika-berry-two" class="button-content">
+                    <img id="button-berry-two" src="Assets/Berry-two.png" />
+                </div>
+
+                <div id="pika-pet-one" class="button-content">
+                    <img id="button-pet-one" src="Assets/PET-ONE.png" />
+                </div>
+
+                <div id="pika-pet-two" class="button-content">
+                    <img id="button-pet-two" src="Assets/PET-TWO.png" />
+                </div>
+
+                <div id="pika-tail-one" class="button-content">
+                    <img id="button-tail-one" src="Assets/TAIL-ONE.png" />
+                </div>
+
+                <div id="pika-tail-two" class="button-content">
+                    <img id="button-tail-two" src="Assets/TAIL-TWO.png" />
+                </div>
+
+
+
+
+
+            </div>
+            <div id="FUN-VIDEO" class="button-content">
+                <video autoplay="autoplay" controls muted>
+
+                    <source src="Assets/Danger.mp4" type="video/mp4">
+
+                    Sorry, your browser doesn't support embedded videos.
+                </video>
+            </div>
+        </div>
+
+
+
+        <div id="buttons-box">
+            <button class="buttons" id="fun-button-one">Give apple</button>
+            <button class="buttons" id="fun-button-two">Give razz berry</button>
+            <button class="buttons" id="fun-button-three">Pet Pikachu</button>
+            <button class="buttons" id="fun-button-four">Pull tail</button>
+        </div>
+
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
